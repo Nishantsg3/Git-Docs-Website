@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Glossary</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Git Docs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="basics.html">Basics</a></li>
+          <li class="nav-item"><a class="nav-link" href="intermediate.html">Intermediate</a></li>
+          <li class="nav-item"><a class="nav-link" href="advanced.html">Advanced</a></li>
+          <li class="nav-item"><a class="nav-link" href="best-practices.html">Best Practices</a></li>
+          <li class="nav-item"><a class="nav-link active" href="glossary.html">Glossary</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center py-5 bg-primary text-light">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Git Glossary</h1>
+      <p class="lead">Quick reference for common Git terms and commands.</p>
+    </div>
+  </header>
+
+  <main class="container my-5">
+
+    <section class="mb-4">
+      <div class="text-center mb-3">
+        <img src="./assets/images/git.png" alt="Git Logo" class="img-fluid me-2" style="width:60px; height:auto;">
+      </div>
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h2 class="card-title mb-4">Common Git Terms</h2>
+          <dl class="row">
+            <dt class="col-sm-3"><strong>Commit</strong></dt>
+            <dd class="col-sm-9">A snapshot of changes in your repository at a specific point in time.</dd>
+
+            <dt class="col-sm-3"><strong>Branch</strong></dt>
+            <dd class="col-sm-9">An independent line of development, allowing separate work on features or fixes.</dd>
+
+            <dt class="col-sm-3"><strong>Merge</strong></dt>
+            <dd class="col-sm-9">Combining changes from one branch into another.</dd>
+
+            <dt class="col-sm-3"><strong>Clone</strong></dt>
+            <dd class="col-sm-9">Creating a copy of a repository from a remote source to your local machine.</dd>
+
+            <dt class="col-sm-3"><strong>Pull</strong></dt>
+            <dd class="col-sm-9">Fetching and integrating changes from a remote repository to your local branch.</dd>
+
+            <dt class="col-sm-3"><strong>Push</strong></dt>
+            <dd class="col-sm-9">Uploading your local commits to a remote repository.</dd>
+
+            <dt class="col-sm-3"><strong>Rebase</strong></dt>
+            <dd class="col-sm-9">Moving or combining a sequence of commits to a new base commit.</dd>
+
+            <dt class="col-sm-3"><strong>Tag</strong></dt>
+            <dd class="col-sm-9">Marking a specific commit with a human-readable label, often for releases.</dd>
+
+            <dt class="col-sm-3"><strong><code>.gitignore</code></strong></dt>
+            <dd class="col-sm-9">Specifies which files or directories Git should ignore.</dd>
+
+            <dt class="col-sm-3"><strong>Stash</strong></dt>
+            <dd class="col-sm-9">Temporarily saving changes that are not ready to commit so you can work on something
+              else.</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-light text-center py-4">
+    <div class="container">
+      <a href="#top" class="btn btn-light mb-2">Back to Top</a>
+      <p class="mb-0">© 2025 Nishant Gawande. Built with Bootstrap & semantic HTML.</p>
+      <div class="mt-2">
+        <a href="best-practices.html" class="btn btn-outline-light btn-sm me-2">Previous Page</a>
+        <a href="index.html" class="btn btn-outline-light btn-sm">Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

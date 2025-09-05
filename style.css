@@ -1,0 +1,210 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: aliceblue;
+  color: midnightblue;
+  line-height: 1.6;
+  padding: 0 15px;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  background-color: lightsteelblue;
+  z-index: 1000;
+  text-align: center;
+  padding: 25px 0;
+  border-bottom: 2px solid cornflowerblue;
+  box-shadow: 0 2px 5px lightblue;
+}
+
+header h1 {
+  color: navy;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: midnightblue;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: midnightblue;
+  font-weight: bold;
+  padding: 7px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+nav ul li a:hover {
+  background-color: lightcyan;
+  color: navy;
+  box-shadow: 0 2px 5px lightsteelblue;
+}
+
+a {
+  text-decoration: none;
+  color: midnightblue;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sections & Aside */
+section,
+aside {
+  background-color: aliceblue;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px lightsteelblue;
+  transition: transform 0.2s;
+}
+
+section:hover,
+aside:hover {
+  transform: translateY(-3px);
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  color: navy;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.3rem;
+  margin-top: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Lists */
+ol,
+ul {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+li {
+  margin-bottom: 6px;
+}
+
+/* Code blocks */
+pre {
+  background-color: midnightblue;
+  color: aliceblue;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  box-shadow: inset 0 0 5px lightsteelblue;
+}
+
+code {
+  color: midnightblue;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 18px 0;
+  background-color: lightsteelblue;
+  border-top: 2px solid lightblue;
+  box-shadow: 0 -2px 5px lightblue;
+}
+
+footer button {
+  margin: 5px;
+  padding: 6px 12px;
+  border: 1px solid midnightblue;
+  background-color: aliceblue;
+  color: midnightblue;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+footer button:hover {
+  background-color: lightcyan;
+  color: midnightblue;
+  box-shadow: 0 2px 5px lightsteelblue;
+}
+
+footer nav a {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: midnightblue;
+  font-weight: bold;
+}
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+/* Back-to-Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: lightsteelblue;
+  color: navy;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+  box-shadow: 0 2px 5px lightblue;
+  transition: all 0.3s ease;
+}
+#backToTop:hover {
+  background-color: lightcyan;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 0 10px;
+  }
+  nav ul {
+    justify-content: flex-start;
+  }
+  section,
+  aside {
+    padding: 15px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

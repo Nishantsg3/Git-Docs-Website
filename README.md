@@ -82,7 +82,8 @@ Git-Docs-Website/
 ## 👤 Author  
 **Nishant Gawande**  
 
-- GitHub: [@Nishantsg3](https://github.com/Nishantsg3)  
+- GitHub: [@Nishantsg3](https://github.com/Nishantsg3)
+- Netlify: [@Nishantsg3](https://git-docs-web.netlify.app/)
 - Project: [Git Docs Website](https://nishantsg3.github.io/Git-Docs-Website/)  
 
 ---
